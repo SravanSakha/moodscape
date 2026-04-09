@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MoodScape</title>
+<title>MoodScape 2.0</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,8 +11,8 @@
 <audio id="bgm" loop></audio>
 
 <div class="container">
-  <h1>🌈 MoodScape</h1>
-  <p>Select your current mood to visualize your day:</p>
+  <h1>🌈 MoodScape 2.0</h1>
+  <p>Select your current mood to see what the day holds:</p>
 
   <div class="mood-buttons">
     <button onclick="setMood('Happy')">😊 Happy</button>
@@ -24,6 +24,7 @@
 
   <div id="result" class="result">
     <h2 id="quote"></h2>
+    <button id="newMessage" onclick="newMessage()" style="display:none;">Another message 🔄</button>
   </div>
 
 </div>
